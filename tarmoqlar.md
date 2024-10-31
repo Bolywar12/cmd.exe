@@ -22,10 +22,10 @@ Ushbu qo'llanma CMD orqali tarmoq diagnostikasi, sozlamalari va boshqaruvi uchun
 ```bash
 ping [domen yoki IP]
 ```
-ping [domen yoki IP]
 Misol:
-
+```cmd
 ping google.com
+```
 Izoh: Bu buyruq ma'lum bir IP manzil yoki domenga bog'lanishning mavjudligini va kechikish vaqtini o'lchaydi.
 
 2. Ipconfig Buyrug'i
