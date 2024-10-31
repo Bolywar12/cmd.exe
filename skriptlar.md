@@ -28,9 +28,10 @@ Quyidagi misolda oddiy bir skript ko'rsatiladi:
 @echo off
 echo "Bu CMD skripti"
 pause
-@echo off – Barcha buyruqlarni ekranga chiqarishni o'chiradi.
-echo – Matnni ekranga chiqaradi.
-pause – Skriptni davom ettirish uchun foydalanuvchidan tugma bosishni so'raydi.
+```
+ - @echo off – Barcha buyruqlarni ekranga chiqarishni o'chiradi.
+ - echo – Matnni ekranga chiqaradi.
+ - pause – Skriptni davom ettirish uchun foydalanuvchidan tugma bosishni so'raydi.
 📘 Izoh: Faylni .bat yoki .cmd kengaytmasi bilan saqlaganingizdan so'ng, uni ikki marta bosish orqali ishga tushirishingiz mumkin.
 
 3. If/Else Shartli Operatorlar
@@ -38,17 +39,16 @@ if va else operatorlari shartli tekshiruvlar bajarishga yordam beradi.
 
 Sintaksis:
 
-bat
-Копировать код
+```bat
 if [shart] ( 
     echo "Shart bajarildi"
 ) else (
     echo "Shart bajarilmadi"
 )
+```
 Misol: Foydalanuvchi kiritgan ma'lumotni tekshirish.
 
-bat
-Копировать код
+```bat
 @echo off
 set /p ism="Ismingizni kiriting: "
 if %ism%==Ali (
@@ -56,6 +56,8 @@ if %ism%==Ali (
 ) else (
     echo "Salom, %ism%!"
 )
+```
+
 📘 Izoh: set /p foydalanuvchidan ma'lumot olish uchun ishlatiladi.
 
 4. For Tsiklidan Foydalanish
