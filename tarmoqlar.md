@@ -22,7 +22,7 @@ Ushbu qo'llanma CMD orqali tarmoq diagnostikasi, sozlamalari va boshqaruvi uchun
 ```bash
 ping [domen yoki IP]
 ```
-Misol:
+**Misol:**
 ```cmd
 ping google.com
 ```
@@ -31,7 +31,7 @@ ping google.com
 ### 2. Ipconfig Buyrug'i
 Ipconfig buyrug'i tarmoq interfeyslari haqida ma'lumot olish va tarmoq sozlamalarini yangilash uchun ishlatiladi.
 
-Sintaksis:
+**Sintaksis:**
 
 ```cmd
 ipconfig
@@ -44,12 +44,12 @@ Asosiy opsiyalar:
 ### 3. Tracert Buyrug'i
 Tracert buyrug'i paketning manzilga boradigan yo'lini ko'rsatadi.
 
-Sintaksis:
+**Sintaksis:**
 
 ```cmd
 tracert [domen yoki IP]
 ```
-Misol:
+**Misol:**
 
 ```cmd
 tracert google.com
@@ -59,7 +59,7 @@ tracert google.com
 ### 4. Netstat Buyrug'i
 Netstat buyruqlari ochiq portlar va faol ulanishlar haqida ma'lumot beradi.
 
-Sintaksis:
+**Sintaksis:**
 
 ```cmd
 netstat [opsiyalar]
@@ -71,12 +71,12 @@ Asosiy opsiyalar:
 ### 5. Nslookup Buyrug'i
 Nslookup buyrug'i DNS orqali IP yoki domen nomini tekshiradi.
 
-Sintaksis:
+**Sintaksis:**
 
 ```cmd
 nslookup [domen yoki IP]
 ```
-Misol:
+**Misol:**
 
 ```cmd
 nslookup google.com
@@ -86,24 +86,24 @@ nslookup google.com
 ### 6. Netsh Buyrug'i
 Netsh buyrug'i Windows tarmoq konfiguratsiyasini sozlash uchun ishlatiladi.
 
-Sintaksis:
+**Sintaksis:**
 
 ```cmd
 netsh [buyruqlar]
 ```
-Misollar:
+**Misollar:**
  - **`netsh wlan show profile`** – Wi-Fi profil va parollarini ko'rsatadi.
  - **`netsh interface ip set address name="Local Area Connection" static [IP] [Subnet Mask] [Gateway]`** – IP manzilni statik qilib sozlaydi.
  - **`netsh advfirewall set allprofiles state off`** – Windows Firewall'ni o'chiradi.
 ### 7. Pathping Buyrug'i
 Pathping buyrug'i **`ping`** va **`tracert`** funksiyalarini birlashtirib, har bir marshrut tugunining uzilish darajasini ko'rsatadi.
 
-Sintaksis:
+**Sintaksis:**
 
 ```cmd
 pathping [domen yoki IP]
 ```
-Misol:
+**Misol:**
 
 ```cmd
 pathping google.com
