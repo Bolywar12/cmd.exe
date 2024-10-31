@@ -54,7 +54,7 @@ Misol:
 ```cmd
 tracert google.com
 ```
-Izoh: Bu buyruq paketning manzilga borishida o'tadigan marshrut haqida ma'lumot beradi.
+ℹ Izoh: Bu buyruq paketning manzilga borishida o'tadigan marshrut haqida ma'lumot beradi.
 
 ### 4. Netstat Buyrug'i
 Netstat buyruqlari ochiq portlar va faol ulanishlar haqida ma'lumot beradi.
@@ -81,7 +81,7 @@ Misol:
 ```cmd
 nslookup google.com
 ```
-Izoh: Bu buyruq domen nomini IP manzilga yoki aksincha o'zgartirishga yordam beradi.
+ℹ Izoh: Bu buyruq domen nomini IP manzilga yoki aksincha o'zgartirishga yordam beradi.
 
 ### 6. Netsh Buyrug'i
 Netsh buyrug'i Windows tarmoq konfiguratsiyasini sozlash uchun ishlatiladi.
@@ -108,7 +108,7 @@ Misol:
 ```cmd
 pathping google.com
 ```
-Izoh: Bu buyruq har bir marshrut tuguni orqali o'tadigan paketlarning uzilish darajasini o'lchaydi.
+ℹ Izoh: Bu buyruq har bir marshrut tuguni orqali o'tadigan paketlarning uzilish darajasini o'lchaydi.
 
 ### 8. Qo'shimcha Ma'lumotlar
  - CMD haqida: CMD bu Windows buyruqlar qatori bo'lib, foydalanuvchiga operatsion tizim bilan muloqot qilish imkonini beradi.
