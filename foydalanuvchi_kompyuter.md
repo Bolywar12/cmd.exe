@@ -82,7 +82,7 @@ tasklist
 ```
 📘 Izoh: Bu buyruq yordamida jarayon nomlari va ularning PID (Jarayon Identifikatori) ko'rinadi.
 
-getmac buyrug'i
+**`getmac`** buyrug'i
 getmac buyrug'i kompyuterning MAC manzilini ko'rsatadi.
 
 ```cmd
