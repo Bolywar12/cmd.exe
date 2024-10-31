@@ -45,4 +45,16 @@ Keraksiz fayllarni o‘chirish uchun **`del`** buyrug‘idan foydalaniladi:
 ```cmd
 del yangi_fayl.txt
 ```
+⚠️Ogohlantirish: Bu buyruqni ehtiyotkorlik bilan ishlating, chunki o‘chirilgan fayllar qayta tiklanmaydi.
 
+Faylni Ko‘chirish va Nusxalash
+Faylni boshqa katalogga ko‘chirish yoki nusxalash:
+
+ - Nusxalash uchun **`copy`** buyrug‘i ishlatiladi:
+```cmd
+copy yangi_fayl.txt C:\yangi_katalog\
+```
+ - Ko‘chirish uchun move buyrug‘i ishlatiladi:
+```cmd
+move yangi_fayl.txt C:\yangi_katalog\
+```
