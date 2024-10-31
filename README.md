@@ -4,12 +4,12 @@ Ushbu qo'llanma CMD (Command Prompt) buyruqlarini to'liq va tizimli ravishda o'r
 
 ## Mundarija
 
-1. [Disklar va Bo'limlar bilan Ishlash](disklar.md)
-2. [Fayl va Kataloglar Bilan Ishlash](fayl_va_kataloglar.md)
-3. [Tarmoqlar Bilan Ishlash](tarmoqlar.md)
-4. [Foydalanuvchi va Kompyuter Ma’lumotlari](foydalanuvchi_kompyuter.md)
-5. [Protsesslarni Boshqarish](protsesslar.md)
-6. [Skriptlar Yaratish va Avtomatlashtirish](skriptlar.md)
+1. [Disklar va Bo'limlar bilan Ishlash](Mundarija/disklar.md)
+2. [Fayl va Kataloglar Bilan Ishlash](Mundarija/fayl_va_kataloglar.md)
+3. [Tarmoqlar Bilan Ishlash](Mundarija/tarmoqlar.md)
+4. [Foydalanuvchi va Kompyuter Ma’lumotlari](Mundarija/foydalanuvchi_kompyuter.md)
+5. [Protsesslarni Boshqarish](Mundarija/protsesslar.md)
+6. [Skriptlar Yaratish va Avtomatlashtirish](Mundarija/skriptlar.md)
 
 ---
 
