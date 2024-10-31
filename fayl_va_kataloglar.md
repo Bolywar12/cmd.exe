@@ -37,3 +37,12 @@ CMD da yangi matnli fayl yaratish uchun quyidagi buyruqni ishlatish mumkin:
 
 ```cmd
 echo Bu fayl CMD yordamida yaratildi > yangi_fayl.txt
+```
+Yuqoridagi buyruq "yangi_fayl.txt" faylini yaratadi va uning ichiga "Bu fayl CMD yordamida yaratildi" matnini yozadi.
+
+Faylni O‘chirish
+Keraksiz fayllarni o‘chirish uchun **`del`** buyrug‘idan foydalaniladi:
+```cmd
+del yangi_fayl.txt
+```
+
