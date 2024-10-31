@@ -65,19 +65,19 @@ for tsikli bilan bir nechta ma'lumotlarni ketma-ket ishlatish yoki fayllarni qay
 
 Sintaksis:
 
-bat
-Копировать код
+```bat
 for %%x in (1 2 3) do (
     echo "Qiymat: %%x"
 )
+```
 Misol: Joriy katalogdagi barcha .txt fayllarni ko'rsatish.
 
-bat
-Копировать код
+```bat
 @echo off
 for %%f in (*.txt) do (
     echo Fayl nomi: %%f
 )
+```
 📘 Izoh: for tsikli bilan fayl kengaytmalarini yoki boshqa qiymatlarni takrorlash mumkin.
 
 5. Rejalashtirilgan Vazifalar
@@ -88,14 +88,14 @@ schtasks yordamida skriptlarni yoki dasturlarni ma'lum vaqtga rejalashtirish mum
 
 Misol: Skriptni har kuni soat 12:00 da ishlatish uchun:
 
-bash
-Копировать код
+```bash
 schtasks /create /tn "MeningVazifam" /tr "C:\yo'l\skriptim.bat" /sc daily /st 12:00
-/tn – Vazifa nomi.
-/tr – Ishlatiladigan skript yoki dastur yo'li.
-/sc – Takrorlash turi (daily - har kuni).
-/st – Ish vaqti (soat
-).
+```
+ - /tn – Vazifa nomi.
+ - /tr – Ishlatiladigan skript yoki dastur yo'li.
+ - /sc – Takrorlash turi (daily - har kuni).
+ - /st – Ish vaqti (soat).
 📘 Izoh: Ushbu buyruq Task Scheduler'da yangi rejalashtirilgan vazifa yaratadi va belgilangan vaqtga asosan ishlaydi.
 
+---
 Ushbu qo'llanma CMD orqali skript yaratish va avtomatlashtirishning asosiy texnikalarini o'z ichiga oladi. Yozilgan skriptlarni Windows Task Scheduler bilan birgalikda ishlatish orqali tizimning turli qismlarini avtomatlashtirish mumkin.
