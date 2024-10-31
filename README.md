@@ -4,12 +4,17 @@ Ushbu qo'llanma CMD (Command Prompt) buyruqlarini to'liq va tizimli ravishda o'r
 
 ## Mundarija
 
-1. [Disklar va Bo'limlar bilan Ishlash](#disklar-va-bo'limlar-bilan-ishlash)
-2. [Fayl va Kataloglar Bilan Ishlash](#fayl-va-kataloglar-bilan-ishlash)
-3. [Tarmoqlar Bilan Ishlash](#tarmoqlar-bilan-ishlash)
-4. [Foydalanuvchi va Kompyuter Ma’lumotlari](#foydalanuvchi-va-kompyuter-ma'lumotlari)
-5. [Protsesslarni Boshqarish](#protsesslarni-boshqarish)
-6. [Skriptlar Yaratish va Avtomatlashtirish](#skriptlar-yaratish-va-avtomatlashtirish)
+1. [Disklar va Bo'limlar bilan Ishlash](disklar.md)
+2. [Fayl va Kataloglar Bilan Ishlash](fayl_va_kataloglar.md)
+3. [Tarmoqlar Bilan Ishlash](tarmoqlar.md)
+4. [Foydalanuvchi va Kompyuter Ma’lumotlari](foydalanuvchi_kompyuter.md)
+5. [Protsesslarni Boshqarish](protsesslar.md)
+6. [Skriptlar Yaratish va Avtomatlashtirish](skriptlar.md)
+
+---
+
+Har bir bo‘limni o‘zlashtirgach, CMD orqali yanada qudratli imkoniyatlarga ega bo'lasiz. 
+
 
 ---
 
