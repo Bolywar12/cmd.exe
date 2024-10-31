@@ -111,7 +111,8 @@ pathping google.com
 Izoh: Bu buyruq har bir marshrut tuguni orqali o'tadigan paketlarning uzilish darajasini o'lchaydi.
 
 ### 8. Qo'shimcha Ma'lumotlar
-CMD haqida: CMD bu Windows buyruqlar qatori bo'lib, foydalanuvchiga operatsion tizim bilan muloqot qilish imkonini beradi.
-Qo'shimcha buyruqlar: CMD da boshqa ko'plab tarmoq buyruqlari mavjud bo'lib, ularga arp, ftp, telnet kabi buyruqlar kiradi.
+ - CMD haqida: CMD bu Windows buyruqlar qatori bo'lib, foydalanuvchiga operatsion tizim bilan muloqot qilish imkonini beradi.
+ - Qo'shimcha buyruqlar: CMD da boshqa ko'plab tarmoq buyruqlari mavjud bo'lib, ularga **`arp`**, **`ftp`**, **`telnet`** kabi buyruqlar kiradi.
+
 ---
 Ushbu qo'llanma tarmoqlar bilan ishlash uchun CMD da eng keng qo'llaniladigan buyruqlarni o'z ichiga oladi.
