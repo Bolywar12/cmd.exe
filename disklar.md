@@ -45,7 +45,7 @@ wmic diskdrive get model,name,size,serialnumber,status
 Muayyan diskni boshqarish uchun DiskPart yordamida quyidagi buyruqlardan foydalaning.
 So‘ngra DiskPart dasturida disklarni ro‘yxatlash uchun:
 
-Disklar ro'yxatini olish (**DiskPart** orqali)
+Disklar ro'yxatini olish (**`DiskPart`** orqali)
 ```bash
 diskpart
 ```
