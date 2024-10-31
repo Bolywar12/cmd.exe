@@ -90,4 +90,5 @@ bash
 getmac
 📘 Izoh: Bu buyruq kompyuterdagi tarmoq interfeyslarining MAC manzillarini ko'rsatadi.
 
+---
 Ushbu qo'llanma CMD orqali foydalanuvchi va kompyuter haqidagi ma'lumotlarni olishda keng qo'llaniladigan buyruqlarni o'z ichiga oladi. Har bir buyruq tizim bilan bog'liq asosiy ma'lumotlarni olish uchun juda foydali.
