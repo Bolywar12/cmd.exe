@@ -26,7 +26,7 @@ Misol:
 ```cmd
 ping google.com
 ```
-Izoh: Bu buyruq ma'lum bir IP manzil yoki domenga bog'lanishning mavjudligini va kechikish vaqtini o'lchaydi.
+ℹ Izoh: Bu buyruq ma'lum bir IP manzil yoki domenga bog'lanishning mavjudligini va kechikish vaqtini o'lchaydi.
 
 ### 2. Ipconfig Buyrug'i
 Ipconfig buyrug'i tarmoq interfeyslari haqida ma'lumot olish va tarmoq sozlamalarini yangilash uchun ishlatiladi.
