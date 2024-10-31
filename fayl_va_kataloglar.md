@@ -95,5 +95,6 @@ ren eski_fayl.txt yangi_fayl.txt
  - Fayllarni o‘chirishda ehtiyot bo‘ling – Fayl o‘chirib bo‘lingandan so‘ng, uni qaytarish imkonsiz.
  - **`/s`** bayrog‘idan foydalanishdan avval ehtiyot bo‘ling – U barcha ichki fayl va kataloglarni o‘chiradi.
  - Buyruqlarni Administrator sifatida ishga tushiring, agar tizim kataloglari va fayllar bilan ishlash kerak bo‘lsa.
+---
 Ushbu qo‘llanma yordamida CMD yordamida fayllar va kataloglarni boshqarish bo‘yicha keng qamrovli bilimga ega bo‘lasiz. Har bir buyruq bilan tanishib, ularni amalda qo‘llash orqali CMD ni chuqurroq o‘rganishingiz mumkin.
 
