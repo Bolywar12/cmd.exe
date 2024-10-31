@@ -54,7 +54,46 @@ Faylni boshqa katalogga ko‘chirish yoki nusxalash:
 ```cmd
 copy yangi_fayl.txt C:\yangi_katalog\
 ```
- - Ko‘chirish uchun move buyrug‘i ishlatiladi:
+ - Ko‘chirish uchun **`move`** buyrug‘i ishlatiladi:
 ```cmd
 move yangi_fayl.txt C:\yangi_katalog\
 ```
+### 3. Kataloglar Bilan Ishlash
+Yangi Katalog Yaratish
+Yangi katalog yaratish uchun **`mkdir`** yoki **`md`** buyrug‘idan foydalaning:
+```cmd
+mkdir yangi_katalog
+```
+Katalogga Kirish va Undan Chiqish
+ - Katalogga kirish uchun **`cd`** buyrug‘idan foydalaning:
+```cmd
+cd yangi_katalog
+```
+ - Katalogdan chiqish uchun **`cd ..`** yoziladi:
+```cmd
+cd ..
+```
+Katalogni O‘chirish
+Bo‘sh kataloglarni o‘chirish uchun **`rmdir`** buyrug‘i ishlatiladi:
+```cmd
+rmdir yangi_katalog
+```
+Agar katalog bo‘sh bo‘lmasa va uni o‘chirish kerak bo‘lsa, quyidagi buyruqdan foydalaning:
+```cmd
+rmdir /s /q yangi_katalog
+```
+### 4. Qo‘shimcha Kengaytirilgan Buyruqlar
+ - **`tree`** – Katalog ichidagi fayl va papkalarni daraxt shaklida ko‘rsatadi:
+```cmd
+tree C:\foydalanuvchi\hujjatlar
+```
+ - **`ren`** – Fayl yoki katalog nomini o‘zgartiradi:
+```cmd
+ren eski_fayl.txt yangi_fayl.txt
+```
+### 5. Maslahat va Eng Yaxshi Amaliyotlar
+ - Fayllarni o‘chirishda ehtiyot bo‘ling – Fayl o‘chirib bo‘lingandan so‘ng, uni qaytarish imkonsiz.
+ - **`/s`** bayrog‘idan foydalanishdan avval ehtiyot bo‘ling – U barcha ichki fayl va kataloglarni o‘chiradi.
+ - Buyruqlarni Administrator sifatida ishga tushiring, agar tizim kataloglari va fayllar bilan ishlash kerak bo‘lsa.
+Ushbu qo‘llanma yordamida CMD yordamida fayllar va kataloglarni boshqarish bo‘yicha keng qamrovli bilimga ega bo‘lasiz. Har bir buyruq bilan tanishib, ularni amalda qo‘llash orqali CMD ni chuqurroq o‘rganishingiz mumkin.
+
