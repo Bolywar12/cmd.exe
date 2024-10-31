@@ -45,7 +45,7 @@ wmic diskdrive get model,name,size,serialnumber,status
 Muayyan diskni boshqarish uchun DiskPart yordamida quyidagi buyruqlardan foydalaning.
 So‘ngra DiskPart dasturida disklarni ro‘yxatlash uchun:
 
-Disklar ro'yxatini olish (**`DiskPart`** orqali)
+Disklar ro'yxatini olish (**DiskPart** orqali)
 ```bash
 diskpart
 ```
@@ -71,7 +71,7 @@ Bo'limni NTFS formatida formatlash uchun:
 ```bash
 format fs=ntfs quick
 ```
-Agar FAT32 kerak bo'lsa, **ntfs** o'rniga **fat32** yozing.
+Agar FAT32 kerak bo'lsa, **`ntfs`** o'rniga **`fat32`** yozing.
 ### 6. Bo'lim hajmini o'zgartirish
 CMD yordamida bo'lim hajmini kengaytirish yoki qisqartirish mumkin.
 
@@ -103,6 +103,6 @@ clean all
 ### 8. Eng yaxshi amaliyotlar va ogohlantirishlar
 - Buyruqlarni bajarishdan oldin disk raqamlarini diqqat bilan tekshiring.
 - Operatsiyalarni bajarishdan oldin ma'lumotlarni zaxiralang.
-- **clean all** buyrug‘idan faqat kerak bo‘lganda foydalaning.
+- **`clean all`** buyrug‘idan faqat kerak bo‘lganda foydalaning.
 
 
