@@ -14,18 +14,17 @@ Ushbu qo'llanma CMD orqali tarmoq diagnostikasi, sozlamalari va boshqaruvi uchun
 8. [Qo'shimcha Ma'lumotlar](#qo-shimcha-ma-lumotlar)
 
 ---
-1. Ping Buyrug'i
-Ping buyruqlari tarmoqqa ulanadigan boshqa qurilmalarning mavjudligini tekshirishda qo'llaniladi.
+### 1. Ping Buyrug'i
 
-Sintaksis:
+**Ping** buyruqlari tarmoqqa ulanadigan boshqa qurilmalarning mavjudligini tekshirishda qo'llaniladi.
 
-bash
-Копировать код
+**Sintaksis:**
+```bash
+ping [domen yoki IP]
+```
 ping [domen yoki IP]
 Misol:
 
-bash
-Копировать код
 ping google.com
 Izoh: Bu buyruq ma'lum bir IP manzil yoki domenga bog'lanishning mavjudligini va kechikish vaqtini o'lchaydi.
 
