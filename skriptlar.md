@@ -32,6 +32,7 @@ pause
  - @echo off – Barcha buyruqlarni ekranga chiqarishni o'chiradi.
  - echo – Matnni ekranga chiqaradi.
  - pause – Skriptni davom ettirish uchun foydalanuvchidan tugma bosishni so'raydi.
+
 📘 Izoh: Faylni .bat yoki .cmd kengaytmasi bilan saqlaganingizdan so'ng, uni ikki marta bosish orqali ishga tushirishingiz mumkin.
 
 3. If/Else Shartli Operatorlar
