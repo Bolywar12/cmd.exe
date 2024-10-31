@@ -95,6 +95,7 @@ schtasks /create /tn "MeningVazifam" /tr "C:\yo'l\skriptim.bat" /sc daily /st 12
  - /tr – Ishlatiladigan skript yoki dastur yo'li.
  - /sc – Takrorlash turi (daily - har kuni).
  - /st – Ish vaqti (soat).
+
 📘 Izoh: Ushbu buyruq Task Scheduler'da yangi rejalashtirilgan vazifa yaratadi va belgilangan vaqtga asosan ishlaydi.
 
 ---
