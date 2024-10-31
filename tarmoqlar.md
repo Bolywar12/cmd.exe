@@ -37,10 +37,10 @@ Sintaksis:
 ipconfig
 ```
 Asosiy opsiyalar:
-ipconfig /all – Qurilmadagi barcha tarmoq adapterlari haqida to'liq ma'lumot beradi.
-ipconfig /release – Joriy IP manzilni bo'shatadi.
-ipconfig /renew – IP manzilni yangilaydi.
-ipconfig /flushdns – DNS keshini tozalaydi.
+ - **`ipconfig`** /all – Qurilmadagi barcha tarmoq adapterlari haqida to'liq ma'lumot beradi.
+ - **`ipconfig /release`** – Joriy IP manzilni bo'shatadi.
+ - **`ipconfig /renew`** – IP manzilni yangilaydi.
+ - **`ipconfig /flushdns`** – DNS keshini tozalaydi.
 ### 3. Tracert Buyrug'i
 Tracert buyrug'i paketning manzilga boradigan yo'lini ko'rsatadi.
 
@@ -65,9 +65,9 @@ Sintaksis:
 netstat [opsiyalar]
 ```
 Asosiy opsiyalar:
-netstat -a – Barcha ulanishlar va tinglayotgan portlarni ko'rsatadi.
-netstat -n – IP va port raqamlarini raqamli formatda ko'rsatadi.
-netstat -o – Har bir ulanish uchun jarayon ID (PID)ni ko'rsatadi.
+ - **`netstat -a`** – Barcha ulanishlar va tinglayotgan portlarni ko'rsatadi.
+ - **`netstat -n`** – IP va port raqamlarini raqamli formatda ko'rsatadi.
+ - **`netstat -o`** – Har bir ulanish uchun jarayon ID (PID)ni ko'rsatadi.
 ### 5. Nslookup Buyrug'i
 Nslookup buyrug'i DNS orqali IP yoki domen nomini tekshiradi.
 
@@ -92,11 +92,11 @@ Sintaksis:
 netsh [buyruqlar]
 ```
 Misollar:
-netsh wlan show profile – Wi-Fi profil va parollarini ko'rsatadi.
-netsh interface ip set address name="Local Area Connection" static [IP] [Subnet Mask] [Gateway] – IP manzilni statik qilib sozlaydi.
-netsh advfirewall set allprofiles state off – Windows Firewall'ni o'chiradi.
+ - **`netsh wlan show profile`** – Wi-Fi profil va parollarini ko'rsatadi.
+ - **`netsh interface ip set address name="Local Area Connection" static [IP] [Subnet Mask] [Gateway]`** – IP manzilni statik qilib sozlaydi.
+ - **`netsh advfirewall set allprofiles state off`** – Windows Firewall'ni o'chiradi.
 ### 7. Pathping Buyrug'i
-Pathping buyrug'i ping va tracert funksiyalarini birlashtirib, har bir marshrut tugunining uzilish darajasini ko'rsatadi.
+Pathping buyrug'i **`ping`** va **`tracert`** funksiyalarini birlashtirib, har bir marshrut tugunining uzilish darajasini ko'rsatadi.
 
 Sintaksis:
 
